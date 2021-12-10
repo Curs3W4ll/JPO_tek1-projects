@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="2">
+ <editorsettings>
+  <export format="csv"/>
+ </editorsettings>
+ <tileset firstgid="1" name="grasslands_tiles" tilewidth="32" tileheight="32" tilecount="140" columns="5">
+  <image source="../assets/map/grasslands/grasslands_tiles.png" width="160" height="896"/>
+ </tileset>
+ <tileset firstgid="141" name="grasslands_tree_big" tilewidth="67" tileheight="82" tilecount="1" columns="1">
+  <image source="../assets/map/grasslands/grasslands_tree_big.png" width="67" height="82"/>
+ </tileset>
+ <tileset firstgid="142" name="grasslands_tree_small" tilewidth="32" tileheight="44" tilecount="1" columns="1">
+  <image source="../assets/map/grasslands/grasslands_tree_small.png" width="32" height="44"/>
+ </tileset>
+ <tileset firstgid="143" name="grasslands_dirt" tilewidth="16" tileheight="16" tilecount="4" columns="4">
+  <image source="../assets/map/grasslands/grasslands_dirt.png" width="64" height="16"/>
+ </tileset>
+ <tileset firstgid="147" name="grasslands_flower" tilewidth="16" tileheight="16" tilecount="6" columns="6">
+  <image source="../assets/map/grasslands/grasslands_flower.png" width="96" height="16"/>
+ </tileset>
+ <tileset firstgid="153" name="grasslands_tree_stump" tilewidth="32" tileheight="28" tilecount="1" columns="1">
+  <image source="../assets/map/grasslands/grasslands_tree_stump.png" width="32" height="28"/>
+ </tileset>
+ <tileset firstgid="154" name="global_bush" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="../assets/map/global_bush.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="155" name="global_rock" tilewidth="32" tileheight="39" tilecount="1" columns="1">
+  <image source="../assets/map/global_rock.png" width="32" height="39"/>
+ </tileset>
+ <tileset firstgid="156" name="dekuBush" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="../assets/map/dekuBush.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="157" name="dekuFloorPlanter" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="../assets/map/dekuFloorPlanter.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="158" name="FairyFountainStatue" tilewidth="32" tileheight="32" tilecount="2" columns="1">
+  <image source="../assets/map/FairyFountainStatue.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="160" name="FairyFountainFloorObjects" tilewidth="32" tileheight="32" tilecount="10" columns="5">
+  <image source="../assets/map/FairyFountainFloorObjects.png" width="160" height="64"/>
+ </tileset>
+ <tileset firstgid="170" name="FairyFountainTiles" tilewidth="32" tileheight="32" tilecount="20" columns="5">
+  <image source="../assets/map/FairyFountainTiles.png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="190" name="FairyFountainWallStatue" tilewidth="74" tileheight="91" tilecount="1" columns="1">
+  <image source="../assets/map/FairyFountainWallStatue.png" width="74" height="91"/>
+ </tileset>
+ <tileset firstgid="191" name="collision" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="../assets/map/collision.png" width="32" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="25" height="15">
+  <properties>
+   <property name="level" type="int" value="0"/>
+  </properties>
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,62,170,170,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,170,0,170,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,62,170,170,170,170,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,62,62,62,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <layer id="7" name="Ground Object" width="25" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,152,0,0,0,0,0,0,152,0,0,0,0,152,0,0,0,0,0,
+0,0,0,0,0,0,0,0,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,166,166,166,166,166,0,148,0,148,0,0,0,0,0,0,
+0,0,0,0,0,0,0,148,0,182,178,178,178,178,178,179,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,148,0,0,161,174,170,170,170,170,170,171,163,152,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,148,161,174,170,170,170,170,170,171,163,0,152,0,0,0,0,0,0,
+0,0,0,0,0,148,148,0,161,174,170,170,170,170,170,171,163,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,161,174,170,170,170,170,170,171,163,0,0,0,0,148,0,0,0,
+0,0,0,148,0,0,0,0,161,174,170,170,170,170,170,171,163,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,176,172,172,172,172,172,173,0,0,148,0,0,148,0,0,0,
+0,0,0,0,0,0,0,148,0,0,167,167,167,167,167,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,148,0,0,0,0,148,0,0,0,0,0,0,0,0,148,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,148,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,148,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="Carpet" width="25" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,183,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,184,186,181,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,177,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Objects" width="25" height="15">
+  <data encoding="csv">
+1,0,154,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,154,154,154,1,
+141,0,0,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,154,154,141,0,
+141,141,0,154,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,154,154,141,141,1,
+141,0,141,154,154,154,0,0,0,0,0,0,0,0,0,0,0,0,0,154,154,141,141,141,0,
+141,141,141,141,0,154,0,0,0,0,0,0,0,0,0,0,0,0,0,154,141,141,141,141,0,
+141,0,141,0,154,0,0,0,0,0,0,0,158,0,0,0,0,0,0,0,154,141,141,141,0,
+141,141,0,154,0,0,0,0,0,0,0,0,159,0,0,0,0,0,0,0,0,154,141,141,0,
+141,0,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,154,0,0,
+0,0,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,141,0,
+141,1,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,154,141,0,
+141,0,0,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,154,141,0,
+1,141,154,154,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,154,154,154,154,1,
+141,0,141,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,142,154,154,141,0,
+141,141,0,141,141,0,0,0,0,0,0,0,154,0,0,0,0,0,0,0,141,141,141,141,1,
+141,0,141,141,0,141,0,141,0,141,141,0,154,141,141,0,141,0,141,0,141,0,154,141,0
+</data>
+ </layer>
+ <layer id="8" name="collisions" width="25" height="15" visible="0">
+  <properties>
+   <property name="collision" type="int" value="1"/>
+  </properties>
+  <data encoding="csv">
+191,191,191,191,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,191,191,191,191,
+191,191,191,191,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,191,191,191,191,
+191,191,191,191,191,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,191,191,191,191,191,
+191,191,191,191,191,191,0,0,0,191,191,191,191,191,191,191,0,0,0,191,191,191,191,191,191,
+191,191,191,191,191,191,0,0,0,191,191,191,191,191,191,191,0,0,0,191,191,191,191,191,191,
+191,191,191,191,191,0,0,0,0,191,191,191,191,191,191,191,0,0,0,0,191,191,191,191,191,
+191,191,191,191,0,0,0,0,0,191,191,191,191,191,191,191,0,0,0,0,0,191,191,191,191,
+191,191,191,0,0,0,0,0,0,191,191,191,191,191,191,191,0,0,0,0,0,0,191,191,191,
+191,191,191,0,0,0,0,0,0,191,191,191,191,191,191,191,0,0,0,0,0,0,0,191,191,
+191,191,191,0,0,0,0,0,0,191,191,191,191,191,191,191,0,0,0,0,0,0,191,191,191,
+191,191,191,191,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,191,191,191,
+191,191,191,191,191,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,191,191,191,191,191,
+191,191,191,191,191,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,191,191,191,191,191,
+191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,
+191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191
+</data>
+ </layer>
+</map>

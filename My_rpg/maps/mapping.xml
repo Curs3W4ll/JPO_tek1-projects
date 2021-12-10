@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maps>
+    <map id="1" music_id="1" music_path="assets/sounds/forest.ogg" path="maps/start_map.tmx" bot="2"/>
+    <map id="2" music_id="1" music_path="assets/sounds/forest.ogg" path="maps/grass_map.tmx" top="1" right="6" bot="3" left="16"/>
+    <map id="3" music_id="2" music_path="assets/sounds/gerudo.ogg" path="maps/beach.tmx" top="2" right="4" left="18"/>
+    <map id="4" music_id="2" music_path="assets/sounds/gerudo.ogg" path="maps/beach2.tmx" left="3" right="5" top="6"/>
+    <map id="5" music_id="2" music_path="assets/sounds/gerudo.ogg" path="maps/beach3.tmx" left="4" top="7"/>
+    <map id="6" music_id="1" music_path="assets/sounds/forest.ogg" path="maps/grass2.tmx" left="2" right="7" top="8" bot="4"/>
+    <map id="7" music_id="1" music_path="assets/sounds/forest.ogg" path="maps/grass3.tmx" left="6" bot="5"/>
+    <map id="8" music_id="1" music_path="assets/sounds/forest.ogg" path="maps/forest.tmx" env="1" bot="6" right="9" top="10"/>
+    <map id="9" music_id="1" music_path="assets/sounds/forest.ogg" path="maps/forest_boss.tmx" env="1" left="8" top="32"/>
+    <map id="10" music_id="1" music_path="assets/sounds/forest.ogg" path="maps/forest2.tmx" env="1" bot="8" left="11" right="14"/>
+    <map id="11" music_id="4" music_path="assets/sounds/lava.ogg" path="maps/lava.tmx" right="10" top="12" left="22"/>
+    <map id="12" music_id="4" music_path="assets/sounds/lava.ogg" path="maps/lava2.tmx" right="13" bot="11" left="26"/>
+    <map id="13" music_id="4" music_path="assets/sounds/lava.ogg" path="maps/lava_boss.tmx" left="12" top="31"/>
+    <map id="14" music_id="1" music_path="assets/sounds/forest.ogg" path="maps/forest3.tmx" env="1" left="10"/>
+    <map id="15" music_id="6" music_path="assets/sounds/fairy.ogg" path="maps/fairy_map.tmx" top="28"/>
+    <map id="16" music_id="1" music_path="assets/sounds/forest.ogg" path="maps/grass4.tmx" right="2" left="17" bot="18"/>
+    <map id="17" music_id="2" music_path="assets/sounds/gerudo.ogg" path="maps/desert.tmx" right="16" left="19" bot="20" top="21"/>
+    <map id="18" music_id="2" music_path="assets/sounds/gerudo.ogg" path="maps/desert_beach.tmx" right="3" top="16" left="20"/>
+    <map id="19" music_id="2" music_path="assets/sounds/gerudo.ogg" path="maps/desert2.tmx" right="17" left="33"/>
+    <map id="20" music_id="2" music_path="assets/sounds/gerudo.ogg" path="maps/desert3.tmx" right="18" top="17"/>
+    <map id="21" music_id="2" music_path="assets/sounds/gerudo.ogg" path="maps/desert_grass.tmx" bot="17" top="22"/>
+    <map id="22" music_id="2" music_path="assets/sounds/gerudo.ogg" path="maps/mix.tmx" bot="21" right="11" left="23" top="26"/>
+    <map id="23" music_id="3" music_path="assets/sounds/ice.ogg" path="maps/ice.tmx" env="0" right="22" top="24" left="25"/>
+    <map id="24" music_id="3" music_path="assets/sounds/ice.ogg" path="maps/ice2.tmx" env="0" bot="23" right="26" top="27"/>
+    <map id="25" music_id="3" music_path="assets/sounds/ice.ogg" path="maps/ice3.tmx" env="0" right="23" top="30"/>
+    <map id="26" music_id="3" music_path="assets/sounds/ice.ogg" path="maps/ice4.tmx" env="0" right="12" left="24" bot="22"/>
+    <map id="27" music_id="1" music_path="assets/sounds/forest.ogg" path="maps/hyrule.tmx" bot="24" right="28"/>
+    <map id="28" music_id="1" music_path="assets/sounds/forest.ogg" path="maps/Hyrule2.tmx" left="27" right="29" top="34" bot="15"/>
+    <map id="29" music_id="1" music_path="assets/sounds/forest.ogg" path="maps/hyrule3.tmx" left="28"/>
+    <map id="30" music_id="5" music_path="assets/sounds/ganon.ogg"  env="0" boss_map="1" boss_name="Wizzroboe" img_path="assets/boss/Wizzroboe/11.png" path="maps/arena_ice.tmx" bot="25"/>
+    <map id="31" music_id="5" music_path="assets/sounds/ganon.ogg" path="maps/arena_lava.tmx" bot="13"/>
+    <map id="32" music_id="5" music_path="assets/sounds/ganon.ogg" env="1" boss_map="1" boss_name="Guitarmos" img_path="assets/boss/Guitarmos/5.png" path="maps/arena_forest.tmx" bot="9"/>
+    <map id="33" music_id="5" music_path="assets/sounds/ganon.ogg" boss_map="1" boss_name="King Dobongo" img_path="assets/boss/Godog/intro.png" path="maps/arena_desert.tmx" right="19"/>
+    <map id="34" music_id="5" music_path="assets/sounds/ganon.ogg" boss_map="1" boss_name="Ganon" img_path="assets/boss/Ganon/intro.png" path="maps/final_boss.tmx" bot="28"/>
+</maps>
