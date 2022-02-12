@@ -1,19 +1,29 @@
 #!/bin/bash
 
-cd ./my_hunter
-./my_hunter
+while :
+do
+    echo "Press [CTRL+C] to stop.."
 
-# read var
+    cd ./my_hunter
+    ./my_hunter
+    cd ..
 
-cd ../my_radar
-./my_radar map
+    # read var
 
-# read var
+    cd ./my_radar
+    ./my_radar map
+    cd ..
 
-cd ../dante_star
-./generator 50 150 perfect ; ./solver test_map
+    # read var
 
-# read var
+    cd ./dante_star
+    ./generator 50 150 perfect ; ./solver test_map
+    cd ..
 
-cd ../my_rpg
-./my_rpg
+    # read var
+
+    cd ./my_rpg
+    ./my_rpg
+    cd ..
+
+done
